@@ -1,0 +1,110 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 32px 230px;
+}
+header img{
+  margin-right: 122px;
+}
+
+header p{
+  margin-right: 30px;
+}
+
+.links {
+  display: flex;
+}
+
+.links a{
+  text-decoration: none;
+  color: black;
+}
+
+.links a:hover{
+  font-weight: bold;
+}
+
+.intro {
+  max-width: 940px;
+  display: flex;
+  background-color: #FBDFDB;
+  border-radius: 30px;
+  opacity: 100%;
+  height: 366px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 117px;
+  margin-left: 60px;
+}
+
+.title h1{
+  font-weight: bold;
+  font-size: 32px;
+  color: #111111;
+  margin-bottom: 10px;
+  line-height: 38px;
+}
+
+.title p{
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.logo img {
+  width: 216px;
+  height: 300px;
+  margin: 66px 100px 0 248px;
+}
+
+.wrapper h1{
+  max-width: 940px;
+  margin: 50px auto 1.8% auto;
+}
+
+section.receitas {
+  max-width: 940px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.receita img{
+  width: 300px;
+  height: 140px;
+  border-radius: 15px;
+}
+
+.card__content p{
+  margin-top: 1.8%;
+  font-size: 18px;
+  color: #111111;
+}
+
+.card__info p{
+  margin-top: 0.5%;
+  margin-bottom: 2.7%;
+  font-size: 14px;
+  color: #777777;
+}
+
+footer{
+  text-align: center;
+  background-color: #EEEEEE;
+  margin-top: 50px;
+  padding: 23px 0;
+}
